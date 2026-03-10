@@ -8,7 +8,7 @@ resources:
     encoding: utf-8-sig
     format: csv
     hashing: md5
-    name: despesa_pessoal_mensal
+    name: Despesa Pessoal Mensal
     path: data/despesa_pessoal_mensal.csv
     profile: tabular-data-resource
     schema:
@@ -49,7 +49,7 @@ resources:
     encoding: utf-8-sig
     format: csv
     hashing: md5
-    name: limites_lrf
+    name: Limites LRF
     path: data/limites_lrf.csv
     profile: tabular-data-resource
     schema:
