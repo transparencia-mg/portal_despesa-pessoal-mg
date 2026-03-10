@@ -6,8 +6,6 @@ Conjunto de dados contendo informações sobre a **despesa com pessoal do Govern
 
 Esta base de dados reúne informações consolidadas sobre as **despesas com pessoal do Poder Executivo do Estado de Minas Gerais**, permitindo o acompanhamento público dos gastos com servidores ativos, aposentados, pensionistas e demais vínculos relacionados à folha de pagamento.
 
-Os dados possibilitam a análise da evolução das despesas com pessoal ao longo do tempo, bem como a distribuição dos gastos entre órgãos e entidades da administração pública estadual.
-
 As informações são disponibilizadas em formato estruturado, facilitando o uso por cidadãos, pesquisadores, órgãos de controle, jornalistas e desenvolvedores interessados em análises de dados públicos.
 
 ---
@@ -42,3 +40,4 @@ https://www.transparencia.mg.gov.br/pagina/despesa-com-pessoal
 
 - Os valores apresentados correspondem às despesas registradas nos sistemas oficiais do Governo do Estado.
 - As informações seguem as normas de transparência pública e podem ser utilizadas para fins de análise, pesquisa e controle social.
+
