@@ -42,7 +42,7 @@ resources:
         - name: despesa_liquida_com_pessoal_iii_i_ii
           type: string
     scheme: file
-    title: despesa_pessoal_mensal
+    title: Despesa Mensal com Pessoal
   - description: Dados referentes aos limites da Lei de Responsabilidade Fiscal.
     dialect:
       delimiter: ;
@@ -77,5 +77,5 @@ resources:
         - name: limite_de_alerta_xi_inciso_ii_do_SS_1o_do_art_59_da_lrf_44_10
           type: string
     scheme: file
-    title: limites_lrf
+    title: Limites da LRF
 title: Despesa com Pessoal MG
