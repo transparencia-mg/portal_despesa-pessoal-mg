@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.053,
+  "time": 0.054,
   "errors": [],
   "tasks": [
     {
@@ -76,7 +76,7 @@
           ]
         },
         "scheme": "file",
-        "title": "despesa_pessoal_mensal",
+        "title": "Despesa Mensal com Pessoal",
         "stats": {
           "hash": "214fa9bfe09b81b47b2325320b6cb759",
           "bytes": 7854,
@@ -7094,7 +7094,7 @@
           ]
         },
         "scheme": "file",
-        "title": "limites_lrf",
+        "title": "Limites da LRF",
         "stats": {
           "hash": "369083d488dd5d1f4a3d16960edcaa6e",
           "bytes": 1619,
