@@ -12,64 +12,34 @@ resources:
     path: data/despesa_pessoal_mensal.csv
     profile: tabular-data-resource
     schema:
-      fields:
-        - name: unnamed_0
+      fields: 
+        - name: mes_ano
           type: string
-        - name: mai_23
+        - name: despesa_bruta_com_pessoal_i
           type: string
-        - name: jun_23
+        - name: pessoal_ativo;vencimentos_vantagens_e_outras_despesas_variaveis
           type: string
-        - name: jul_23
+        - name: obrigacoes_patronais;pessoal_inativo_e_pensionistas;aposentadorias_reserva_e_reformas
           type: string
-        - name: ago_23
+        - name: pensoes
           type: string
-        - name: set_23
+        - name: outras_despesas_de_pessoal_decorrentes_de_contratos_de_terceirizacao_ou_de_contratacao_de_forma_indireta_SS_1o_do_art_18_da_lrf;despesa_com_pessoal_nao_executada_orcamentariamente
           type: string
-        - name: out_23
+        - name: despesas_nao_computadas_ii_SS_1o_do_art_19_da_lrf
           type: string
-        - name: nov_23
+        - name: indenizacoes_por_demissao_e_incentivos_a_demissao_voluntaria
           type: string
-        - name: dez_23
+        - name: decorrentes_de_decisao_judicial_de_periodo_anterior_ao_da_apuracao
           type: string
-        - name: jan_24
+        - name: despesas_de_exercicios_anteriores_de_periodo_anterior_ao_da_apuracao
           type: string
-        - name: fev_24
+        - name: inativos_e_pensionistas_com_recursos_vinculados
           type: string
-        - name: mar_24
+        - name: agentes_comunitarios_de_saude_e_de_combate_as_endemias_com_recursos_vinculados_cf_art_198_SS_11
           type: string
-        - name: abr_24
+        - name: outras_deducoes_constitucionais_ou_legais
           type: string
-        - name: mai_24
-          type: string
-        - name: jun_24
-          type: string
-        - name: jul_24
-          type: string
-        - name: ago_24
-          type: string
-        - name: set_24
-          type: string
-        - name: out_24
-          type: string
-        - name: nov_24
-          type: string
-        - name: dez_24
-          type: string
-        - name: jan_25
-          type: string
-        - name: fev_25
-          type: string
-        - name: mar_25
-          type: string
-        - name: abr_25
-          type: string
-        - name: mai_25
-          type: string
-        - name: jun_25
-          type: string
-        - name: jul_25
-          type: string
-        - name: ago_25
+        - name: despesa_liquida_com_pessoal_iii_i_ii
           type: string
     scheme: file
     title: despesa_pessoal_mensal
@@ -84,17 +54,27 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-        - name: unnamed_0
+        - name: mes_ano_a_mes_ano
           type: string
-        - name: set_2024_a_ago_2025
+        - name: receita_corrente_liquida_rcl_iv
           type: string
-        - name: mai_2025_a_abr_2025
+        - name: transferencias_obrigatorias_da_uniao_relativas_as_emendas_individuais_v_SS_1deg_art_166_da_cf
           type: string
-        - name: jan_2024_a_dez_2024
+        - name: transferencias_obrigatorias_da_uniao_relativas_as_emendas_de_bancada_art_166_SS_16_da_cf_vi
           type: string
-        - name: set_2023_a_ago_2024
+        - name: transferencias_da_uniao_relativas_a_remuneracao_dos_agentes_comunitarios_de_saude_e_de_combate_as_endemias_cf_art_498_SS_11
           type: string
-        - name: mai_2023_a_abr_2024
+        - name: outras_deducoes_constitucionais_ou_legais
+          type: string
+        - name: receita_corrente_liquida_ajustada_para_calculo_dos_limites_da_despesa_com_pessoal_vii_iv_v_vi
+          type: string
+        - name: despesa_total_com_pessoal_dtp_sobre_a_rcl_vii_iii_a_iii_b
+          type: string
+        - name: limite_maximo_ix_incisos_i_ii_e_iii_art_20_da_lrf_49_00
+          type: string
+        - name: limite_prudencial_x_paragrafo_unico_art_22_da_lrf_46_55
+          type: string
+        - name: limite_de_alerta_xi_inciso_ii_do_SS_1o_do_art_59_da_lrf_44_10
           type: string
     scheme: file
     title: limites_lrf
