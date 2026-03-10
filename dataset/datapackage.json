@@ -75,7 +75,7 @@
         ]
       },
       "scheme": "file",
-      "title": "despesa_pessoal_mensal"
+      "title": "Despesa Mensal com Pessoal"
     },
     {
       "description": "Dados referentes aos limites da Lei de Responsabilidade Fiscal.",
@@ -137,7 +137,7 @@
         ]
       },
       "scheme": "file",
-      "title": "limites_lrf"
+      "title": "Limites da LRF"
     }
   ],
   "title": "Despesa com Pessoal MG"
